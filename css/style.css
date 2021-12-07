@@ -170,11 +170,11 @@ nav > ul {
   }
 }
 
-#features {
+#Features {
   margin-top: 30px;
 }
 
-#features .icon {
+#Features .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,12 +184,12 @@ nav > ul {
 }
 
 @media (max-width: 550px) {
-  #features .icon {
+  #Features .icon {
     display: none;
   }
 }
 
-#features .desc {
+#Features .desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,7 +199,7 @@ nav > ul {
 }
 
 @media (max-width: 550px) {
-  #features .desc {
+  #Features .desc {
     width: 100%;
     text-align: center;
     padding: 0;
@@ -208,7 +208,7 @@ nav > ul {
 }
 
 @media (max-width: 650px) {
-  #features {
+  #Features {
     margin-top: 0;
   }
 }
@@ -242,7 +242,7 @@ nav > ul {
   border-radius: 3px;
 }
 
-.product > .level {
+.Pricing > .level {
   background-color: #ddd;
   color: black;
   padding: 15px 0;
@@ -251,35 +251,36 @@ nav > ul {
   font-weight: 700;
 }
 
-.product > h2 {
+.Pricing > h2 {
   margin-top: 15px;
 }
 
-.product > ol {
+.Pricing > ol {
   margin: 15px 0;
 }
 
-.product > ol > li {
+.Pricing > ol > li {
   padding: 5px 0;
 }
 
-.product > button {
+.Pricing > button {
   border: 0;
   margin: 15px 0;
   background-color: #f1c40f;
   font-weight: 400;
 }
 
-.product > button:hover {
+.Pricing > button:hover {
   background-color: orange;
   transition: background-color 1s;
 }
 
 @media (max-width: 800px) {
-  #pricing {
+  #Pricing {
     flex-direction: column;
+    display: flex;
   }
-  .product {
+  .Pricing {
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
@@ -289,6 +290,7 @@ nav > ul {
 
 footer {
   margin-top: 30px;
+  display: flex;
   background-color: #ddd;
   padding: 20px;
 }
