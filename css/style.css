@@ -42,10 +42,11 @@ a {
   text-decoration: none;
 }
 
-.container {
+#container {
   max-width: 1000px;
   width: 100%;
-  margin: 0 auto;
+  margin: 1.5rem auto 0;
+  overflow: hidden;
 }
 
 .btn {
@@ -195,11 +196,26 @@ nav > ul {
   width: 20vw;
   color: darkorange;
 }
+.logo {
+    width: 250px;
+    cursor: pointer;
+}
 
-@media (max-width: 550px) {
+@media (min-width: 1000px) {
   #features .icon {
     display: none;
   }
+}
+
+
+
+.nav-link {
+    float: left;
+    padding: 12px 14px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 #features .desc {
@@ -330,6 +346,15 @@ footer {
   background-color: #ddd;
   padding: 20px;
 }
+
+.btn {
+    display: inline-block;
+    padding: 0.3rem 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f1c41a;
+}
+
 
 footer > ul {
   display: flex;
