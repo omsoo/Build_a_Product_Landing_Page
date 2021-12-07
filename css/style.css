@@ -1,4 +1,4 @@
-
+/** global element styling **/
 
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
@@ -17,24 +17,8 @@ body {
   position: relative;
 }
 
-<<<<<<< HEAD
-ul {
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-#nav-bar {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0px;
-=======
 li {
   list-style: none;
->>>>>>> bdbba2b7c521d5de95459192f32df5bf6142b7e2
 }
 
 a {
@@ -42,11 +26,12 @@ a {
   text-decoration: none;
 }
 
-#container {
+/** global classes styling **/
+
+.container {
   max-width: 1000px;
   width: 100%;
-  margin: 1.5rem auto 0;
-  overflow: hidden;
+  margin: 0 auto;
 }
 
 .btn {
@@ -113,6 +98,7 @@ header {
 
 nav {
   font-weight: 400;
+  display: flex;
 }
 
 @media (max-width: 650px) {
@@ -196,26 +182,11 @@ nav > ul {
   width: 20vw;
   color: darkorange;
 }
-.logo {
-    width: 250px;
-    cursor: pointer;
-}
 
-@media (min-width: 1000px) {
+@media (max-width: 550px) {
   #features .icon {
     display: none;
   }
-}
-
-
-
-.nav-link {
-    float: left;
-    padding: 12px 14px;
-    font-size: 17px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
 }
 
 #features .desc {
@@ -230,31 +201,6 @@ nav > ul {
 @media (max-width: 550px) {
   #features .desc {
     width: 100%;
-<<<<<<< HEAD
-    height: 100px;
-}
-
-@media (min-width:1000px) {
-    body {
-        background-color: rgb(238,238,238);
-    }
-}
-
-
-
-@media only screen and (max-width: 700px) {
-    #nav-bar {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    #nav-bar ul li {
-        padding: 0.5rem 0.5rem;
-    }
-}
-=======
     text-align: center;
     padding: 0;
     height: 150px;
@@ -267,25 +213,25 @@ nav > ul {
   }
 }
 
-#how-it-works {
+#how_it_works {
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-#how-it-works > iframe {
+#how_it_works > iframe {
   max-width: 560px;
   width: 100%;
 }
 
-#pricing {
+#Pricing {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.product {
+.Pricing {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -347,15 +293,6 @@ footer {
   padding: 20px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.3rem 1.3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #f1c41a;
-}
-
-
 footer > ul {
   display: flex;
   justify-content: flex-end;
@@ -372,4 +309,3 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
->>>>>>> bdbba2b7c521d5de95459192f32df5bf6142b7e2
